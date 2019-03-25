@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Toolbar from './components/Toolbar';
+import Home from './components/Home';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App"> <h2>Добро пожаловать в Путь к изучению React</h2> </div> 
+      <>
+      <Toolbar />
+      <Home />
+      </>
     );
   }
 }

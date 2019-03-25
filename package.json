@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-react-css-modules": "^5.2.3",
     "firebase": "^5.9.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
