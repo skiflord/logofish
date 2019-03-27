@@ -1,0 +1,12 @@
+.Menu {
+    justify-content: center;
+    position: relative;
+    opacity: 0.9;
+}
+
+.headerMenu {
+	position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 2;
+}
