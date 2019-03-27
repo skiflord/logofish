@@ -1,10 +1,11 @@
 import React from 'react'
 import { Dropdown, Icon, Menu, Segment } from 'semantic-ui-react'
+import './index.css'
 
 // TODO: Update <Search> usage after its will be implemented
 
 const MenuExampleAttached = () => (
-  <div>
+  <div className='editorWindow'>
     <Menu attached='top'>
       <Dropdown item icon='wrench' simple>
         <Dropdown.Menu>
