@@ -1,6 +1,14 @@
 import React from 'react'
 import { Dropdown, Icon, Menu, Segment } from 'semantic-ui-react'
+import { UnControlled as CodeMirror } from 'react-codemirror2' 
+
 import './index.css'
+
+require('codemirror/lib/codemirror.css');
+require('codemirror/theme/material.css');
+require('codemirror/theme/neat.css');
+require('codemirror/mode/xml/xml.js');
+require('codemirror/mode/javascript/javascript.js');
 
 // TODO: Update <Search> usage after its will be implemented
 
@@ -38,8 +46,20 @@ const MenuExampleAttached = () => (
       </Menu.Menu>
     </Menu>
 
-    <Segment attached='bottom'>
-      <img src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+    <Segment 
+      attached='bottom' 
+      className='editorSegmentField'
+      style={{padding: '0%'}}>
+      <CodeMirror
+        value='<h1>I ♥ react-codemirror2</h1>'
+        options={{
+          mode: 'xml',
+          theme: 'material',
+          lineNumbers: true
+        }}
+        onChange={(editor, data, value) => {
+        }}
+      />
     </Segment>
   </div>
 )

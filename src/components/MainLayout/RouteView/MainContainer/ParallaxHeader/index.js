@@ -22,11 +22,11 @@ const ParallaxHeader = () => (
         bgImageAlt='marlituna'
         strength={250}
         >
-          <Image src={logo} centered  size='small' className='imageBlockLogo'/>>
+          <Image src={logo}  size='small' className='imageBlockLogo'/>>
           <div className='innerBlockInLayerTwo'/>>
         </Parallax>
       </div>
     </Parallax>
   </div>
-);
+)
 export default ParallaxHeader

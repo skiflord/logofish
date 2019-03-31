@@ -3,17 +3,13 @@ import {Switch, Route} from 'react-router-dom'
 import MainContainer from './MainContainer'
 import Editor from '../../Editor'
 
-const RouteView = () => {
-    return (
-      <>
-        <main>
+const RouteView = () => (
+        <div>
           <Switch>
-            <Route path='/home/:option' component={MainContainer}/>
-            <Route path='/editor' component={Editor}/>
+            <Route exact path='/editor' component={Editor}/>
+            <Route path='/:option' component={MainContainer}/>
           </Switch>
-        </main>
-      </>
-    )
-}
+        </div>
+)
 
 export default RouteView

@@ -4,12 +4,17 @@
   "private": true,
   "dependencies": {
     "babel-plugin-react-css-modules": "^5.2.3",
+    "codemirror": "^5.45.0",
     "firebase": "^5.9.1",
     "react": "^16.8.5",
+    "react-codemirror2": "^5.1.0",
     "react-dom": "^16.8.5",
     "react-parallax": "^2.2.0",
+    "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "seamless-immutable": "^7.1.4",
     "semantic-ui-react": "^0.86.0"
   },
   "scripts": {
@@ -26,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
+  }
 }

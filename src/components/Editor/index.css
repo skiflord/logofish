@@ -1,3 +1,8 @@
 .editorWindow {
-    margin: 1em 30em 0px 2em
+    margin-top: 4%;
+    margin-left: 1em;
+    margin-right: 1em
+}
+.editorSegmentField {
+    padding: 0%;
 }
